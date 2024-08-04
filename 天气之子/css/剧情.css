@@ -1,0 +1,63 @@
+body{
+    background-image: url('../img/背景图片.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+#box{
+    width: 1200px;
+    margin: 10% auto;
+    background-color:rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    box-shadow: 0 0 17px;
+    padding: 40px;
+}
+#box h1{
+    text-align: center;
+    font-family: "楷体";
+}
+#img{
+    width: 1200px;
+    height: 500px;
+}
+#img h1{
+    display: inline;
+    position: relative;
+    bottom: 350px;
+    left: 50px;
+}
+#img img{
+    width: 300px;
+}
+#img p{
+    line-height: 50px;
+    font-family: "宋体";
+    position: relative;
+    bottom: 350px;
+    left: 355px;
+}
+#jse ul {
+    list-style: none;
+}
+
+#jse {
+    width: 1200x;
+    height: 840px;
+    padding: 10px;
+}
+
+#jse h2 {
+    font-weight: 500;
+    font-family: "宋体";
+}
+
+#jse img {
+    width: 100px;
+    float: left;
+    padding-right: 10px;
+}
+#ty {
+    clear: both;
+    margin-top: 50px;
+}

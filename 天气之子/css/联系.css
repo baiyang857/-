@@ -1,0 +1,61 @@
+body{
+    background-image: url('../img/背景.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+#box{
+    width: 1000px;
+    margin: 10% auto;
+    background-color:rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    box-shadow: 0 0 17px;
+    padding: 40px;
+}
+#box ul{
+    list-style: none;
+}
+#box li{
+    line-height: 4em;
+}
+.iconfont{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+#box1{
+    float: left;
+}
+#main{
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+#main .text{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+    margin-bottom: 20px
+}
+#main textarea{
+    width: 410px;
+    height: 110px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+#submit{
+   margin-left: 315px;
+   width: 100px;
+   height: 30px;
+   background-color: aqua;
+   border: none;
+}
+h1{
+    font-family: "宋体";
+    color:black;
+}

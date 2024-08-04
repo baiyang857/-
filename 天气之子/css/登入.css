@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+body{
+    background-image:  url('../img/导航栏.webp');
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    overflow: hidden;
+}
+#box{
+    width: 1200px;
+    height: 1800px;
+    margin: 5% auto;
+    background-color:rgba(255, 255, 255, 0.5);
+    overflow: hidden;
+    box-shadow: 0 0 17px;
+}
+#imglist{
+    width: 6000px;
+    height: 200px;
+}
+#imglist img{
+    width:1200px;
+    height: 500px;
+} 
+li{
+    float: left;
+}
+#deng h1{
+    font-size: 100px;
+    text-align: center;
+    color: orange;
+}
+#zhao{
+    text-align: center;
+    margin-top: 200px;
+}
+#zhao input{
+    width: 800px;
+    height: 100px;
+    margin-bottom: 100px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid;
+    padding-left: 20px;
+    font-size: 30px;
+}
+#zhao button{
+    width: 800px;
+    height: 100px;
+    margin-bottom: 100px;
+    border: none;
+    outline: none;
+    font-size: 30px;
+    background-color: #83acf1;
+}
+#deng{
+    margin-top:450px;
+}
+#zhao button:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color:#7799d4;
+}
+#zhao input:hover{
+    box-shadow: 5px 5px 5px black;
+    background-color: #ddd
+}
+#zhao a{
+    text-decoration: none;
+    color: #000;
+    font-size: 40px;
+}
